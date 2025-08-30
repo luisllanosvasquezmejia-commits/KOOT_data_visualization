@@ -4,20 +4,8 @@ import streamlit as st
 st.markdown( """<style>
     #MainMenu {visibility: hidden;}  footer {visibility: hidden;}  header {visibility: hidden;}  </style>  """, unsafe_allow_html=True)
 
-# Set NASA GIF as background
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url("https://www.nasa.gov/wp-content/uploads/2023/03/452banimated_1280x720_360degrees.gif");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Set  GIF as background
+st.markdown("<style>.stApp {background-image: url("https://www.nasa.gov/wp-content/uploads/2023/03/452banimated_1280x720_360degrees.gif");background-size: cover;background-position: center;background-repeat: no-repeat;}</style>",unsafe_allow_html=True)
 
 # Center title and buttons using columns
 st.write("\n"*100)  # Add vertical spacing
@@ -31,6 +19,6 @@ with col1:
     st.image("https://media.licdn.com/dms/image/v2/C4E03AQEy_DD4xzEuaw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1560606428735?e=1759363200&v=beta&t=76DS27F8RXmfZAO-pVDiope_odYW5z3KuVQ9Xg61zjg", width=300)
     st.markdown('<h1 style="color:#ffffff ; font-size:20px; font-weight:500">"kind on on that" -- Dr-William Stoll',  unsafe_allow_html=True)
    # if st.button("Go to Planet Explorer"):
-      #  st.write("🚀 Planet Explorer page coming soon!")
+      #  Redirigir a otra wbd
   #  if st.button("Info / About us"):
-    #    st.write("ℹ️ Info page coming soon!")
+    #   Redirigir al readme.txt
