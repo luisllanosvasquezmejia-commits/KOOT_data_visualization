@@ -1,4 +1,4 @@
-#This program aims to displays our findings
+#This program displays our findings
 
 import streamlit as st
 # Hide Streamlit menu and footer
