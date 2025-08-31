@@ -1,5 +1,6 @@
-import streamlit as st
+#This program aims to displays our findings
 
+import streamlit as st
 # Hide Streamlit menu and footer
 st.markdown( """<style> #MainMenu {visibility: hidden;}  footer {visibility: hidden;}  header {visibility: hidden;}  </style>  """, unsafe_allow_html=True)
 
